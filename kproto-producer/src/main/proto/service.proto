@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "message.proto";
+
+option java_package = "example.contract";
+
+
+service KProto {
+    rpc PostMessage (PostMessageRequest) returns (PostMessageResponse);
+}
+
+message PostMessageRequest {
+    Person person = 1;
+}
+
+message PostMessageResponse {
+}

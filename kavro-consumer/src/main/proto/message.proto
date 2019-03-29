@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "example.contract";
+
+enum Color {
+    UNDEFINED = 0;
+    BROWN = 1;
+    GREEN = 2;
+    BLUE = 3;
+    GRAY = 4;
+
+}
+
+message Person {
+    string name = 1;
+    int32 length = 2;
+    Color color = 3;
+}

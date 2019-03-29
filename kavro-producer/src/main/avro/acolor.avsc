@@ -1,0 +1,6 @@
+{
+    "name": "AColor",
+    "namespace": "example.acontract",
+    "type": "enum",
+    "symbols" : ["UNDEFINED", "BROWN", "GREEN", "BLUE", "GRAY"]
+}

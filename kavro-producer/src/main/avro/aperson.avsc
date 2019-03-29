@@ -1,0 +1,10 @@
+{
+    "name": "APerson",
+    "namespace": "example.acontract",
+    "type": "record",
+    "fields" : [
+        {"name": "name", "type": "string"},
+        {"name": "length", "type": "int"},
+        {"name": "color", "type": "AColor"}
+    ]
+}

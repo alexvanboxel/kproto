@@ -1,0 +1,8 @@
+rootProject.name = 'kproto'
+include 'kproto-producer'
+include 'kproto-consumer'
+include 'kproto-stream'
+include 'kavro-producer'
+include 'kavro-consumer'
+include 'kavro-stream'
+
